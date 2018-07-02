@@ -1,0 +1,3 @@
+pyang zz-improved.model.yang 
+pyang zz-improved.model.yang core-model.yang 
+pyang -f tree  zz-improved.model.yang core-model.yang 
