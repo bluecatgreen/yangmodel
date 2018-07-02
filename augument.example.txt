@@ -1,0 +1,17 @@
+diff --git a/release/models/platform/openconfig-platform-fan.yang b/release/models/platform/openconfig-platform-fan.yang
+index 92b5dbe..2ee9977 100644
+--- a/release/models/platform/openconfig-platform-fan.yang
++++ b/release/models/platform/openconfig-platform-fan.yang
+@@ -46,6 +46,12 @@ module openconfig-platform-fan {
+       description
+         "Current (instantaneous) fan speed";
+     }
++    leaf fan-temp {
++      type uint32;
++      units rpm;
++      description
++        "Fan temperature added by Raman";
++    }
+   }
+ 
+ 

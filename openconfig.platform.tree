@@ -1,0 +1,206 @@
+
+module: openconfig-platform-port
+  augment /oc-if:interfaces/oc-if:interface/oc-if:state:
+    +--ro hardware-port?   -> /oc-platform:components/component/name
+
+module: openconfig-platform-transceiver
+  augment /oc-if:interfaces/oc-if:interface/oc-if:state:
+    +--ro physical-channel*   -> /oc-platform:components/component[oc-platform:name=current()/../oc-port:hardware-port]/oc-transceiver:transceiver/physical-channels/channel/index
+module: openconfig-platform
+  +--rw components
+     +--rw component* [name]
+        +--rw name                          -> ../config/name
+        +--rw config
+        |  +--rw name?   string
+        +--ro state
+        |  +--ro name?                        string
+        |  +--ro type?                        union
+        |  +--ro id?                          string
+        |  +--ro description?                 string
+        |  +--ro mfg-name?                    string
+        |  +--ro mfg-date?                    oc-yang:date
+        |  +--ro hardware-version?            string
+        |  +--ro firmware-version?            string
+        |  +--ro software-version?            string
+        |  +--ro serial-no?                   string
+        |  +--ro part-no?                     string
+        |  +--ro removable?                   boolean
+        |  +--ro oper-status?                 identityref
+        |  +--ro empty?                       boolean
+        |  +--ro parent?                      -> ../../config/name
+        |  +--ro temperature
+        |  |  +--ro instant?           decimal64
+        |  |  +--ro avg?               decimal64
+        |  |  +--ro min?               decimal64
+        |  |  +--ro max?               decimal64
+        |  |  +--ro interval?          oc-types:stat-interval
+        |  |  +--ro min-time?          oc-types:timeticks64
+        |  |  +--ro max-time?          oc-types:timeticks64
+        |  |  +--ro alarm-status?      boolean
+        |  |  +--ro alarm-threshold?   uint32
+        |  |  +--ro alarm-severity?    identityref
+        |  +--ro memory
+        |  |  +--ro available?   uint64
+        |  |  +--ro utilized?    uint64
+        |  +--ro allocated-power?             uint32
+        |  +--ro used-power?                  uint32
+        |  +--ro oc-platform-ext:entity-id?   uint32
+        +--rw properties
+        |  +--rw property* [name]
+        |     +--rw name      -> ../config/name
+        |     +--rw config
+        |     |  +--rw name?    string
+        |     |  +--rw value?   union
+        |     +--ro state
+        |        +--ro name?           string
+        |        +--ro value?          union
+        |        +--ro configurable?   boolean
+        +--rw subcomponents
+        |  +--rw subcomponent* [name]
+        |     +--rw name      -> ../config/name
+        |     +--rw config
+        |     |  +--rw name?   -> ../../../../../component/config/name
+        |     +--ro state
+        |        +--ro name?   -> ../../../../../component/config/name
+        +--rw chassis
+        |  +--rw config
+        |  +--ro state
+        +--rw port
+        |  +--rw config
+        |  +--ro state
+        |  +--rw oc-port:breakout-mode
+        |     +--rw oc-port:config
+        |     |  +--rw oc-port:num-channels?    uint8
+        |     |  +--rw oc-port:channel-speed?   identityref
+        |     +--ro oc-port:state
+        |        +--ro oc-port:num-channels?    uint8
+        |        +--ro oc-port:channel-speed?   identityref
+        +--rw power-supply
+        |  +--rw config
+        |  |  +--rw oc-platform-psu:enabled?   boolean
+        |  +--ro state
+        |     +--ro oc-platform-psu:enabled?          boolean
+        |     +--ro oc-platform-psu:capacity?         oc-types:ieeefloat32
+        |     +--ro oc-platform-psu:input-current?    oc-types:ieeefloat32
+        |     +--ro oc-platform-psu:input-voltage?    oc-types:ieeefloat32
+        |     +--ro oc-platform-psu:output-current?   oc-types:ieeefloat32
+        |     +--ro oc-platform-psu:output-voltage?   oc-types:ieeefloat32
+        |     +--ro oc-platform-psu:output-power?     oc-types:ieeefloat32
+        +--rw fan
+        |  +--rw config
+        |  +--ro state
+        |     +--ro oc-fan:speed?      uint32
+        |     +--ro oc-fan:fan-temp?   uint32
+        +--rw fabric
+        |  +--rw config
+        |  +--ro state
+        +--rw storage
+        |  +--rw config
+        |  +--ro state
+        +--rw cpu
+        |  +--rw config
+        |  +--ro state
+        |  +--rw oc-cpu:utilization
+        |     +--ro oc-cpu:state
+        |        +--ro oc-cpu:instant?    oc-types:percentage
+        |        +--ro oc-cpu:avg?        oc-types:percentage
+        |        +--ro oc-cpu:min?        oc-types:percentage
+        |        +--ro oc-cpu:max?        oc-types:percentage
+        |        +--ro oc-cpu:interval?   oc-types:stat-interval
+        |        +--ro oc-cpu:min-time?   oc-types:timeticks64
+        |        +--ro oc-cpu:max-time?   oc-types:timeticks64
+        +--rw integrated-circuit
+        |  +--rw config
+        |  +--ro state
+        +--rw backplane
+        |  +--rw config
+        |  +--ro state
+        +--rw oc-linecard:linecard
+        |  +--rw oc-linecard:config
+        |  |  +--rw oc-linecard:power-admin-state?   oc-platform-types:component-power-type
+        |  +--ro oc-linecard:state
+        |     +--ro oc-linecard:power-admin-state?   oc-platform-types:component-power-type
+        |     +--ro oc-linecard:slot-id?             string
+        +--rw oc-transceiver:transceiver
+           +--rw oc-transceiver:config
+           |  +--rw oc-transceiver:enabled?                boolean
+           |  +--rw oc-transceiver:form-factor-preconf?    identityref
+           |  +--rw oc-transceiver:ethernet-pmd-preconf?   identityref
+           +--ro oc-transceiver:state
+           |  +--ro oc-transceiver:enabled?                     boolean
+           |  +--ro oc-transceiver:form-factor-preconf?         identityref
+           |  +--ro oc-transceiver:ethernet-pmd-preconf?        identityref
+           |  +--ro oc-transceiver:present?                     enumeration
+           |  +--ro oc-transceiver:form-factor?                 identityref
+           |  +--ro oc-transceiver:connector-type?              identityref
+           |  +--ro oc-transceiver:vendor?                      string
+           |  +--ro oc-transceiver:vendor-part?                 string
+           |  +--ro oc-transceiver:vendor-rev?                  string
+           |  +--ro oc-transceiver:ethernet-pmd?                identityref
+           |  +--ro oc-transceiver:sonet-sdh-compliance-code?   identityref
+           |  +--ro oc-transceiver:otn-compliance-code?         identityref
+           |  +--ro oc-transceiver:serial-no?                   string
+           |  +--ro oc-transceiver:date-code?                   oc-yang:date-and-time
+           |  +--ro oc-transceiver:fault-condition?             boolean
+           |  +--ro oc-transceiver:output-power
+           |  |  +--ro oc-transceiver:instant?    decimal64
+           |  |  +--ro oc-transceiver:avg?        decimal64
+           |  |  +--ro oc-transceiver:min?        decimal64
+           |  |  +--ro oc-transceiver:max?        decimal64
+           |  |  +--ro oc-transceiver:interval?   oc-types:stat-interval
+           |  |  +--ro oc-transceiver:min-time?   oc-types:timeticks64
+           |  |  +--ro oc-transceiver:max-time?   oc-types:timeticks64
+           |  +--ro oc-transceiver:input-power
+           |  |  +--ro oc-transceiver:instant?    decimal64
+           |  |  +--ro oc-transceiver:avg?        decimal64
+           |  |  +--ro oc-transceiver:min?        decimal64
+           |  |  +--ro oc-transceiver:max?        decimal64
+           |  |  +--ro oc-transceiver:interval?   oc-types:stat-interval
+           |  |  +--ro oc-transceiver:min-time?   oc-types:timeticks64
+           |  |  +--ro oc-transceiver:max-time?   oc-types:timeticks64
+           |  +--ro oc-transceiver:laser-bias-current
+           |     +--ro oc-transceiver:instant?    decimal64
+           |     +--ro oc-transceiver:avg?        decimal64
+           |     +--ro oc-transceiver:min?        decimal64
+           |     +--ro oc-transceiver:max?        decimal64
+           |     +--ro oc-transceiver:interval?   oc-types:stat-interval
+           |     +--ro oc-transceiver:min-time?   oc-types:timeticks64
+           |     +--ro oc-transceiver:max-time?   oc-types:timeticks64
+           +--rw oc-transceiver:physical-channels
+              +--rw oc-transceiver:channel* [index]
+                 +--rw oc-transceiver:index     -> ../config/index
+                 +--rw oc-transceiver:config
+                 |  +--rw oc-transceiver:index?                 uint16
+                 |  +--rw oc-transceiver:description?           string
+                 |  +--rw oc-transceiver:tx-laser?              boolean
+                 |  +--rw oc-transceiver:target-output-power?   decimal64
+                 +--ro oc-transceiver:state
+                    +--ro oc-transceiver:index?                 uint16
+                    +--ro oc-transceiver:description?           string
+                    +--ro oc-transceiver:tx-laser?              boolean
+                    +--ro oc-transceiver:target-output-power?   decimal64
+                    +--ro oc-transceiver:output-frequency?      oc-opt-types:frequency-type
+                    +--ro oc-transceiver:output-power
+                    |  +--ro oc-transceiver:instant?    decimal64
+                    |  +--ro oc-transceiver:avg?        decimal64
+                    |  +--ro oc-transceiver:min?        decimal64
+                    |  +--ro oc-transceiver:max?        decimal64
+                    |  +--ro oc-transceiver:interval?   oc-types:stat-interval
+                    |  +--ro oc-transceiver:min-time?   oc-types:timeticks64
+                    |  +--ro oc-transceiver:max-time?   oc-types:timeticks64
+                    +--ro oc-transceiver:input-power
+                    |  +--ro oc-transceiver:instant?    decimal64
+                    |  +--ro oc-transceiver:avg?        decimal64
+                    |  +--ro oc-transceiver:min?        decimal64
+                    |  +--ro oc-transceiver:max?        decimal64
+                    |  +--ro oc-transceiver:interval?   oc-types:stat-interval
+                    |  +--ro oc-transceiver:min-time?   oc-types:timeticks64
+                    |  +--ro oc-transceiver:max-time?   oc-types:timeticks64
+                    +--ro oc-transceiver:laser-bias-current
+                       +--ro oc-transceiver:instant?    decimal64
+                       +--ro oc-transceiver:avg?        decimal64
+                       +--ro oc-transceiver:min?        decimal64
+                       +--ro oc-transceiver:max?        decimal64
+                       +--ro oc-transceiver:interval?   oc-types:stat-interval
+                       +--ro oc-transceiver:min-time?   oc-types:timeticks64
+                       +--ro oc-transceiver:max-time?   oc-types:timeticks64
