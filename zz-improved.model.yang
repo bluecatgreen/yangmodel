@@ -1,0 +1,71 @@
+module zz-improved.model {
+    namespace "urn:onf:params:xml:ns:yang:zz-improved.model";
+    prefix zz;
+
+    import core-model {
+        prefix core-model;
+    }
+    import ietf-yang-types {
+        prefix yang;
+    }
+
+    organization "vz";
+    contact "WG Web: <mailto:xyz.jk.com>";
+    description "this is a sample";
+    revision 2018-07-02 {
+        description "Initial version";
+        reference "A data Model for zz";
+    }
+    grouping equipment_augment
+    {
+       leaf part-number {
+            type string;
+            default "not applicable";
+            description
+                "Part number of the equipment";
+            reference
+                "Universal Part numbers
+                 are assigned by IEMT
+                 see details on their website";
+        }
+
+        leaf material-id {
+            type uint32;
+            default "999999";
+            description
+                "8 digit material id";
+            reference
+                "Universal Part numbers
+                 are assigned by IEMT
+                 see details on their website";
+        }
+        leaf sap-code {
+            type uint32;
+            default "999999";
+            description
+                "8 digit material id";
+            reference
+                "Universal Part numbers
+                 are assigned by IEMT
+                 see details on their website";
+        }
+        leaf clie-7 {
+            type string;
+            default "not applicable";
+            description
+                "clie 7 code";
+            reference
+                "Universal Part numbers
+                 are assigned by IEMT
+                 see details on their website";
+        }
+   }
+  
+
+    augment "/core-model:equipment/core-model:connector/core-model:manufactured-thing/core-model:equipment-type" { 
+        description
+            "Addition of data nodes for needs of zz.";
+        uses equipment_augment;
+    }
+
+}
