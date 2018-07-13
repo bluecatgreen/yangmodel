@@ -1,47 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
-  <control-component xmlns="urn:onf:params:xml:ns:yang:core-model">
-    <control-system-view>
-      <!-- # entries: 0.. -->
-    </control-system-view>
-    <defining-view-mapping>
-      <!-- # entries: 1.. -->
-    </defining-view-mapping>
-    <control-port>
-      <!-- # entries: 0.. -->
-    </control-port>
-    <subordinate-control-component-view>
-      <!-- # entries: 0.. -->
-    </subordinate-control-component-view>
-    <view-mapping>
-      <!-- # entries: 0.. -->
-    </view-mapping>
-    <local-id>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </local-id>
-    <uuid/>
-    <name>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </name>
-    <label>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </label>
-    <extension>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </extension>
-    <operational-state/>
-    <administrative-control/>
-    <administrative-state/>
-    <lifecycle-state/>
-  </control-component>
   <adapter-property-spec xmlns="urn:onf:params:xml:ns:yang:core-model">
     <uuid/>
     <pool-property-spec>
@@ -159,8 +117,8 @@
       <name-and-value-authority/>
     </local-id>
     <name>
-	    <value-name>name</value-name>
-	    <value/>RJ45</value>
+      <value-name/>
+      <value/>
       <name-and-value-authority/>
     </name>
     <label>
@@ -542,63 +500,6 @@
     <administrative-state/>
     <lifecycle-state/>
   </control-port>
-  <control-system-view xmlns="urn:onf:params:xml:ns:yang:core-model">
-    <uuid/>
-    <ltp>
-      <!-- # entries: 0.. -->
-    </ltp>
-    <fd>
-      <!-- # entries: 0.. -->
-    </fd>
-    <link>
-      <!-- # entries: 0.. -->
-    </link>
-    <fc>
-      <!-- # entries: 0.. -->
-    </fc>
-    <pc>
-      <!-- # entries: 0.. -->
-    </pc>
-    <cd>
-      <!-- # entries: 0.. -->
-    </cd>
-    <equipment>
-      <!-- # entries: 0.. -->
-    </equipment>
-    <subordinate-control-system-view>
-      <!-- # entries: 0.. -->
-    </subordinate-control-system-view>
-    <control-port>
-      <!-- # entries: 0.. -->
-    </control-port>
-    <control-component>
-      <!-- # entries: 0.. -->
-    </control-component>
-    <local-id>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </local-id>
-    <name>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </name>
-    <label>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </label>
-    <extension>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </extension>
-    <operational-state/>
-    <administrative-control/>
-    <administrative-state/>
-    <lifecycle-state/>
-  </control-system-view>
   <desired-outcome-constraints xmlns="urn:onf:params:xml:ns:yang:core-model">
     <uuid/>
     <outcome-element>
@@ -2529,40 +2430,6 @@
     <administrative-state/>
     <lifecycle-state/>
   </termination-spec>
-  <view-mapping xmlns="urn:onf:params:xml:ns:yang:core-model">
-    <uuid/>
-    <controller-internal-view>
-      <!-- # entries: 1..2 -->
-    </controller-internal-view>
-    <control-system-view>
-      <!-- # entries: 2..2 -->
-    </control-system-view>
-    <control-system-view/>
-    <local-id>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </local-id>
-    <name>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </name>
-    <label>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </label>
-    <extension>
-      <value-name/>
-      <value/>
-      <name-and-value-authority/>
-    </extension>
-    <operational-state/>
-    <administrative-control/>
-    <administrative-state/>
-    <lifecycle-state/>
-  </view-mapping>
   <cd-port xmlns="urn:onf:params:xml:ns:yang:core-model">
     <local-id/>
     <cd-port/>
