@@ -58,7 +58,7 @@ module zz-augmented.model {
    }
   
 
-    augment "/core-model:manufacturer-properties" { 
+    augment "/core-model:equipment-type" { 
         description
             "Addition of data nodes for needs of zz.";
         uses equipment_augment;
