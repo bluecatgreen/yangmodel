@@ -1,0 +1,2 @@
+Template Name,Shelf Applicable,Manufacturer,Part Number,Material ID,SAP Code,CLEI-7,Category/Card Type,Face Label/Model Name,Card AID Formula,Status,Description,Slot Occupancy,Card Type,Number Of Ports,Height,Width,Depth,Traffic Bearing (Y/N),Subclass
+CS / 400G WDM OTN 10x QSFP+ 2x CFP2 (NCS4K-4H-OPW-QC2=),"4016, 4009",CISCO,NCS4K-4H-OPW-QC2=,11324941,10783542,WOTRD5A,400G WDM OTN,400G WDM OTN,LC-<SHELF>-<SLOT>,PRE_INVENTORY,400G WDM OTN 10x QSFP+ 2x CFP2 (NCS4K-4H-OPW-QC2=),1,Container,0,11.05,1.55,17.7,Y,LGHTWV
