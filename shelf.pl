@@ -38,7 +38,7 @@ my $equipment = qq  (
     <mechanical-functions/>
     <physical-characteristics/>
     <swapability/>
-    <structure>equipment-category-rack</structure>
+    <structure>zz:equipment-category-shelf</structure>
     <environmental-rating/>
     <non-fru-support-position/>
     <!--<function-block/>-->
@@ -93,6 +93,26 @@ my $equipment = qq  (
             <value>$shelfnvp{'Weight'}</value>
       <name-and-value-authority/>
     </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>$shelfnvp{'Dim to Base'}</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>$shelfnvp{'Dim to Left'}</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>$shelfnvp{'Dim to Front'}</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>$shelfnvp{'Dim to Top'}</value>
+      <name-and-value-authority/>
+    </name>
     <label>
       <value-name/>
       <value/>
@@ -110,7 +130,7 @@ my $equipment = qq  (
   </spatial-properties-of-type>
   <manufactured-thing xmlns="urn:onf:params:xml:ns:yang:core-model">
     <equipment-instance>$shelfnvp{'Part Number'}</equipment-instance>
-    <manufacturer-properties>CISCO</manufacturer-properties>
+    <manufacturer-properties>$shelfnvp{'Manufacturer'}</manufacturer-properties>
     <equipment-type>$shelfnvp{'Part Number'}</equipment-type>
     <operator-augmented-equipment-type/>
     <operator-augmented-equipment-instance/>
@@ -118,18 +138,20 @@ my $equipment = qq  (
  <equipment-type xmlns="urn:onf:params:xml:ns:yang:core-model">
     <model-identifier>$shelfnvp{'Part Number'}</model-identifier>
     <zz:part-number>$shelfnvp{'Part Number'}</zz:part-number>
-    <zz:material-id>11321667</zz:material-id>
-    <zz:sap-code>10780445</zz:sap-code>
-    <zz:clei-7>WOML510</zz:clei-7>
-    <description/>
+    <zz:material-id>$shelfnvp{'Material ID'}</zz:material-id>
+    <zz:sap-code>$shelfnvp{'SAP Code'}</zz:sap-code>
+    <zz:clei-7>$shelfnvp{'CLEI-7'}</zz:clei-7>
+    <description>$shelfnvp{'Description'}</description>
     <part-type-identifier/>
     <type-name/>
     <version/>
   </equipment-type>
-  <manufacturer-properties xmlns="urn:onf:params:xml:ns:yang:core-model">
-    <manufacturer-identifier>CISCO</manufacturer-identifier>
-    <manufacturer-name>CISCO</manufacturer-name>
-  </manufacturer-properties>
+  <equipment-instance xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <serial-number>$shelfnvp{'Part Number'}</serial-number>
+    <manufacture-date>16 July 2018</manufacture-date>
+    <asset-instance-identifier/>
+ </equipment-instance>
+
 );
 
 print $equipment;

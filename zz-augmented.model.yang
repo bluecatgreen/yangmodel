@@ -57,6 +57,10 @@ module zz-augmented.model {
         }
    }
   
+   identity equipment-category-shelf {
+       base core-model:equipment-category;
+       description "A mechanical assembly with cabling and predefined mounting points for particular.";
+   }
 
     augment "/core-model:equipment-type" { 
         description

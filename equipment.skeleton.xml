@@ -746,6 +746,9 @@
     <lifecycle-state>lifecycle-state-installed</lifecycle-state>
   </holder>
   <equipment-structure xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <category>zz:equipment-category-shelf</category>
+  </equipment-structure>
+  <equipment-structure xmlns="urn:onf:params:xml:ns:yang:core-model">
     <category>equipment-category-rack</category>
   </equipment-structure>
   <equipment-structure xmlns="urn:onf:params:xml:ns:yang:core-model">
@@ -777,6 +780,10 @@
   <manufacturer-properties xmlns="urn:onf:params:xml:ns:yang:core-model">
     <manufacturer-identifier>CISCO</manufacturer-identifier>
     <manufacturer-name>CISCO</manufacturer-name>
+  </manufacturer-properties>
+  <manufacturer-properties xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <manufacturer-identifier>CIENA</manufacturer-identifier>
+    <manufacturer-name>CIENA</manufacturer-name>
   </manufacturer-properties>
   <operator-augmented-equipment-instance xmlns="urn:onf:params:xml:ns:yang:core-model">
     <asset-instance-identifier/>
