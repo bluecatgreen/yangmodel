@@ -1,0 +1,2 @@
+Template Name,Front/Rear,Rack Template Name,Part Number,Material ID,SAP Code,CLEI-7,Manufacturer,Category/Equip Type/Model Name,Status,Shelf Name,Shelf AID Formula,Shelf AID Rule,Description,Weight,Height,Width,Depth,Dim to Base,Dim to Left,Dim to Front,Dim to Top,Subclass
+CI / 6500 T SERIES 12 SLOT (NTK703HA),,,NTK703HA,11321846,10761398,WOMPV00,CIENA,Ciena 6500 T-12 SHELF,PRE_INVENTORY,[1-254],SHELF-<SHELF>,SHELF-[0-254],Ciena 6500 T-Series 12 Slot (NTK703HA),74.3,29.75,19.6,16.9,0,0,0,0,LGHTWV

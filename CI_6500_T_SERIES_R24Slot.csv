@@ -1,0 +1,51 @@
+Front/Rear,Traffic Bearing (Y/N),Slot Orientation (Vertical/Horizontal/Inverted),Shelf Template Name,Rack Template Name,Description,Model,Height,Width,Depth,Dim to Base,Dim to Left,Dim to Front,Dim to Top,Rel Order,Parent Card Template Name,Subclass
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT PIM 6x60A/1x120A (Power Breaker),PIM 6x60A/1x120A (Power Breaker),4.41,9.57,16.42,16,0,0,0,0,,LGHTWV
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT PIM 6x60A/1x120A (Power Breaker),PIM 6x60A/1x120A (Power Breaker),4.41,9.57,16.42,16,9.57,0,0,1,,LGHTWV
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Shelf Cooling FAN,Shelf Cooling FAN,2.4,9.69,16.34,14.5,0,0,4.41,2,,LGHTWV
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Shelf Cooling FAN,Shelf Cooling FAN,2.4,9.69,16.34,14.5,9.7,0,4.41,3,,LGHTWV
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Access Panel,Access Panel,1.54,19.57,16.3,13,0,0,6.84,4,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,0,0,8.38,5,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,1.42,0,8.38,6,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,2.84,0,8.38,7,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,4.26,0,8.38,8,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,5.68,0,8.38,9,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,7.1,0,8.38,10,,LGHTWV
+Front,N,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Control Timing Module-A,Control Timing Module-A,13.82,0.91,15,5,8.52,0,8.38,11,,LGHTWV
+Front,N,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Control Timing Module-B,Control Timing Module-B,13.82,0.91,15,5,9.43,0,8.38,12,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,10.34,0,8.38,13,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,11.76,0,8.38,14,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,13.18,0,8.38,15,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,14.6,0,8.38,16,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,16.02,0,8.38,17,,LGHTWV
+Front,Y,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,5,17.44,0,8.38,18,,LGHTWV
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Shelf Air Filter,Shelf Air Filter,0.32,19.25,13.54,0,0,0,23.32,19,,LGHTWV
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT SM Fan Module,SM Fan Module,9.37,4.8,16.26,3,0,0,25.65,29,,LGHTWV
+Front,N,Vertical,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT SM Air Filter,SM Air Filter,9.37,0.32,8.43,0,16.14,0,25.65,25,,LGHTWV
+Front,Y,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Switch Module SM 500,Switch Module SM 500,0.98,11.34,16.18,2,4.8,0,25.65,20,,LGHTWV
+Front,Y,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Switch Module SM 500,Switch Module SM 500,0.98,11.34,16.18,1,4.8,0,26.63,21,,LGHTWV
+Front,Y,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Switch Module SM 500,Switch Module SM 500,0.98,11.34,16.18,0,4.8,0,27.61,22,,LGHTWV
+Front,Y,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Switch Module SM 500,Switch Module SM 500,0.98,11.34,16.18,0,4.8,0,28.59,23,,LGHTWV
+Front,Y,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Switch Module SM 500,Switch Module SM 500,0.98,11.34,16.18,0,4.8,0,29.57,24,,LGHTWV
+Front,Y,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Switch Module SM 500,Switch Module SM 500,0.98,11.34,16.18,0,4.8,0,30.55,25,,LGHTWV
+Front,Y,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Switch Module SM 500,Switch Module SM 500,0.98,11.34,16.18,0,4.8,0,31.53,26,,LGHTWV
+Front,Y,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Switch Module SM 500,Switch Module SM 500,0.98,11.34,16.18,0,4.8,0,32.51,27,,LGHTWV
+Front,Y,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Switch Module SM 500,Switch Module SM 500,0.98,11.34,16.18,0,4.8,0,33.49,28,,LGHTWV
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Shelf Air Filter,Shelf Air Filter,0.32,19.25,13.69,0,0,0,35.81,30,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,0,0,37,31,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,1.42,0,37,32,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,2.84,0,37,33,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,4.26,0,37,34,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,5.68,0,37,35,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,7.1,0,37,36,,LGHTWV
+Front,N,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Control Timing Module Extended-A,Control Timing Module Extended-A,13.82,0.91,15,0,8.52,0,37,37,,LGHTWV
+Front,N,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Control Timing Module Extended-B,Control Timing Module Extended-B,13.82,0.91,15,0,9.43,0,37,38,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,10.34,0,37,39,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,11.76,0,37,40,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,13.18,0,37,41,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,14.6,0,37,42,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,16.02,0,37,43,,LGHTWV
+Front,Y,Vertical / Inverted,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Circuit Packs,Circuit Packs,13.82,1.42,15,0,17.44,0,37,44,,LGHTWV
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Shelf Cooling FAN,Shelf Cooling FAN,2.4,9.69,16.34,0,0,0,55.6,45,,LGHTWV
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT Shelf Cooling FAN,Shelf Cooling FAN,2.4,9.69,16.34,0,9.69,0,55.6,46,,LGHTWV
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT PIM 6x60A/1x120A (Power Breaker),PIM 6x60A/1x120A (Power Breaker),4.41,9.57,16.42,0,0,0,58.01,47,,LGHTWV
+Front,N,Horizontal,CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,24 SLOT PIM 6x60A/1x120A (Power Breaker),PIM 6x60A/1x120A (Power Breaker),4.41,9.57,16.42,0,9.57,0,58.01,48,,LGHTWV

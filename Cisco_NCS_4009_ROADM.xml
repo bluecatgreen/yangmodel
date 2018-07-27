@@ -142,6 +142,303 @@
     <administrative-state>administrative-state-locked</administrative-state>
     <lifecycle-state>lifecycle-state-installed</lifecycle-state>
   </equipment>
+  <equipment xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <uuid>E14FF444-916A-11E8-954D-D92621696992</uuid>
+    <connector/>
+    <contained-holder>1</contained-holder>
+    <contained-holder>2</contained-holder>
+    <contained-holder>3</contained-holder>
+    <contained-holder>4</contained-holder>
+    <contained-holder>5</contained-holder>
+    <contained-holder>6</contained-holder>
+    <contained-holder>7</contained-holder>
+    <contained-holder>8</contained-holder>
+    <contained-holder>9</contained-holder>
+    <contained-holder>10</contained-holder>
+    <contained-holder>11</contained-holder>
+    <contained-holder>12</contained-holder>
+    <contained-holder>13</contained-holder>
+    <contained-holder>14</contained-holder>
+    <contained-holder>15</contained-holder>
+    <contained-holder>16</contained-holder>
+    <contained-holder>17</contained-holder>
+    <contained-holder>18</contained-holder>
+    <contained-holder>19</contained-holder>
+    <contained-holder>20</contained-holder>
+    <contained-holder>21</contained-holder>
+    <contained-holder>22</contained-holder>
+    <contained-holder>23</contained-holder>
+    <contained-holder>24</contained-holder>
+    <contained-holder>25</contained-holder>
+    <contained-holder>26</contained-holder>
+    <contained-holder>27</contained-holder>
+    <contained-holder>28</contained-holder>
+    <contained-holder>29</contained-holder>
+    <contained-holder>30</contained-holder>
+    <contained-holder>31</contained-holder>
+    <contained-holder>32</contained-holder>
+    <addressed-by-holder/>
+    <encapsulated-non-fru/>
+    <exposed-cable/>
+    <manufactured-thing>NCS4009-SA-DC=</manufactured-thing>
+    <spatial-properties-of-type>E1505A74-916A-11E8-954D-D92621696992</spatial-properties-of-type>
+    <mechanical-features/>
+    <physical-properties/>
+    <!--<function-enablers/>-->
+    <mechanical-functions/>
+    <physical-characteristics/>
+    <swapability/>
+    <structure>zz:equipment-category-shelf</structure>
+    <environmental-rating/>
+    <non-fru-support-position/>
+    <!--<function-block/>-->
+    <expected-equipment/>
+    <actual-equipment/>
+    <location/>
+    <!--<foundation-pc/>-->
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+      <value-name>Template Name</value-name>
+      <value>CS / NCS 4009 SHELF (NCS4009-SA-DC=)</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+      <value-name>Shelf AID Formula</value-name>
+      <value><![CDATA[
+               SHELF-<SHELF>        
+	       ]]></value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</equipment>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>E1505A74-916A-11E8-954D-D92621696992</uuid>
+          <height>26.25</height>
+          <width>18.5</width>
+          <length>17.71</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value>105.1</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+  <manufactured-thing xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <equipment-instance>NCS4009-SA-DC=</equipment-instance>
+    <manufacturer-properties>CISCO</manufacturer-properties>
+    <equipment-type>NCS4009-SA-DC=</equipment-type>
+    <operator-augmented-equipment-type/>
+    <operator-augmented-equipment-instance/>
+  </manufactured-thing>
+ <equipment-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <model-identifier>NCS4009-SA-DC=</model-identifier>
+    <zz:part-number>NCS4009-SA-DC=</zz:part-number>
+    <zz:material-id>11321658</zz:material-id>
+    <zz:sap-code>10784695</zz:sap-code>
+    <zz:clei-7>WOM5P00</zz:clei-7>
+    <description>NCS 4009 SHELF (NCS4009-SA-DC=)</description>
+    <part-type-identifier/>
+    <type-name/>
+    <version/>
+  </equipment-type>
+  <equipment-instance xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <serial-number>NCS4009-SA-DC=</serial-number>
+    <manufacture-date>16 July 2018</manufacture-date>
+    <asset-instance-identifier/>
+ </equipment-instance>
+  <equipment xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <uuid>1932D6D4-9192-11E8-A21A-CE7F11A43CAB</uuid>
+    <connector/>
+    <contained-holder/>
+    <addressed-by-holder/>
+    <encapsulated-non-fru/>
+    <exposed-cable/>
+    <manufactured-thing>NCS4K-4H-OPW-QC2=</manufactured-thing>
+    <spatial-properties-of-type>1932D71A-9192-11E8-A21A-CE7F11A43CAB</spatial-properties-of-type>
+    <mechanical-features/>
+    <physical-properties/>
+    <!--<function-enablers/>-->
+    <mechanical-functions/>
+    <physical-characteristics/>
+    <swapability/>
+    <structure>equipment-category-circuit_pack</structure>
+    <environmental-rating/>
+    <non-fru-support-position/>
+    <!--<function-block/>-->
+    <expected-equipment/>
+    <actual-equipment/>
+    <location/>
+    <!--<foundation-pc/>-->
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+      <value-name>Template Name</value-name>
+      <value>CS / 400G WDM OTN 10x QSFP+ 2x CFP2 (NCS4K-4H-OPW-QC2=)</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+      <value-name>Card AID Formula</value-name>
+      <value><![CDATA[
+               LC-<SHELF>-<SLOT>        
+	       ]]></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+      <value-name>Traffic Bearing (Y/N)</value-name>
+      <value>Y</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+      <value-name>Card Type</value-name>
+      <value>Container</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</equipment>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>1932D71A-9192-11E8-A21A-CE7F11A43CAB</uuid>
+          <height>11.05</height>
+          <width>1.55</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+  <manufactured-thing xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <equipment-instance>NCS4K-4H-OPW-QC2=</equipment-instance>
+    <manufacturer-properties>CISCO</manufacturer-properties>
+    <equipment-type>NCS4K-4H-OPW-QC2=</equipment-type>
+    <operator-augmented-equipment-type/>
+    <operator-augmented-equipment-instance/>
+  </manufactured-thing>
+ <equipment-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <model-identifier>NCS4K-4H-OPW-QC2=</model-identifier>
+    <zz:part-number>NCS4K-4H-OPW-QC2=</zz:part-number>
+    <zz:material-id>11324941</zz:material-id>
+    <zz:sap-code>10783542</zz:sap-code>
+    <zz:clei-7>WOTRD5A</zz:clei-7>
+    <description>400G WDM OTN 10x QSFP+ 2x CFP2 (NCS4K-4H-OPW-QC2=)</description>
+    <part-type-identifier/>
+    <type-name/>
+    <version/>
+  </equipment-type>
+  <equipment-instance xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <serial-number>NCS4K-4H-OPW-QC2=</serial-number>
+    <manufacture-date>16 July 2018</manufacture-date>
+    <asset-instance-identifier/>
+ </equipment-instance>
   <holder-monitor xmlns="urn:onf:params:xml:ns:yang:core-model">
     <uuid/>
     <is-active>true</is-active>
@@ -745,6 +1042,4585 @@
     <administrative-state>administrative-state-locked</administrative-state>
     <lifecycle-state>lifecycle-state-installed</lifecycle-state>
   </holder>
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>1</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990B69C-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>0</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>PWR TRAY 0</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>PT0</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>F01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Horizontal</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>Power tray / PEM</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>N</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990B69C-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>2</height>
+          <width>16</width>
+          <length>6</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>32</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>1.25</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>2</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990B818-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>1</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>PWR TRAY 1</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>PT1</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>E01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Horizontal</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>Power tray / PEM</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>N</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990B818-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>2</height>
+          <width>16</width>
+          <length>6</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>30</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>1.25</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>2</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>3</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990B8AE-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>0</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>Craft Panel</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>CI0</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>D01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Horizontal</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Craft Interface</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>N</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990B8AE-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>2</height>
+          <width>16</width>
+          <length>1</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>26</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>1.25</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>6.6</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>4</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990BA48-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>0</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>ECU</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>EC0</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>D01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Horizontal</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 External Connection Unit</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>N</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990BA48-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>2</height>
+          <width>16</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>26</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>1.25</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>1</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>4.7</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>5</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990BAD4-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>0</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>FT0</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>FT0</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>C01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Horizontal</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Top Fan Tray </value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>N</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990BAD4-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>1</height>
+          <width>16</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>26</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>1.25</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>8.6</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>6</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990BB92-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>0</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>LC00</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>LC00</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>B02</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Line card slot</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990BB92-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>11.1</height>
+          <width>1.6</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>15</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>2.5</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>9.8</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>7</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990BC14-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>1</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>LC01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>LC01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>B03</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Line card slot</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990BC14-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>11.1</height>
+          <width>1.6</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>15</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>4</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>9.8</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>8</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990BCBE-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>2</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>LC02</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>LC02</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>B04</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Line card slot</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990BCBE-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>11.1</height>
+          <width>1.6</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>15</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>5.5</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>9.8</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>9</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990BD40-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>3</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>LC03</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>LC03</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>B05</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Line card slot</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990BD40-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>11.1</height>
+          <width>1.6</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>15</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>7</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>9.8</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>10</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990BDEA-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>4</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>LC04</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>LC04</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>B06</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Line card slot</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990BDEA-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>11.1</height>
+          <width>1.6</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>15</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>8.5</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>9.8</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>11</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990BE62-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>5</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>LC05</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>LC05</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>B07</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Line card slot</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990BE62-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>11.1</height>
+          <width>1.6</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>15</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>10</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>9.8</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>12</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990BF20-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>6</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>LC06</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>LC06</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>B08</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Line card slot</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990BF20-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>11.1</height>
+          <width>1.6</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>15</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>11.5</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>9.8</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>13</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990BFA2-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>7</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>LC07</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>LC07</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>B09</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Line card slot</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990BFA2-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>11.1</height>
+          <width>1.6</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>15</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>13</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>9.8</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>14</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C04C-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>8</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>LC08</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>LC08</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>B10</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Line card slot</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C04C-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>11.1</height>
+          <width>1.6</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>3</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>14.5</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>9.8</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>15</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C0C4-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>0</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>RP00</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>RP0</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>B01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Route Processor slot</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>N</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C0C4-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>11.1</height>
+          <width>1.6</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>15</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>1</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>9.8</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>16</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C178-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>1</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>RP01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>RP1</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>B11</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Route Processor slot</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>N</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C178-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>11.1</height>
+          <width>1.6</width>
+          <length>17.7</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>3</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>16</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>9.8</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>17</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C1F0-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>0</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>FC00</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>FC00</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>A01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Switch Fabric</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C1F0-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>4.06</height>
+          <width>4.22</width>
+          <length>14.04</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>3</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.81</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>22</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>18</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C2A4-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>1</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>FC01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>FC01</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>A02</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Switch Fabric</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C2A4-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>4.06</height>
+          <width>4.22</width>
+          <length>14.04</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>3</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>5.06</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>22</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>19</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C31C-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>2</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>FC02</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>FC02</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>A03</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Switch Fabric</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C31C-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>4.06</height>
+          <width>4.22</width>
+          <length>14.04</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>3</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>9.31</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>22</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>20</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C3C6-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>3</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>FC03</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>FC03</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>A03</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>NCS 4009 Switch Fabric</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C3C6-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>4.06</height>
+          <width>4.22</width>
+          <length>14.04</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>3</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>13.56</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>22</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>21</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C43E-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>0</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>0</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>0</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXK</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>QSFP+ Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C43E-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>0.72</height>
+          <width>0.53</width>
+          <length>2.85</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.1</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>1</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>22</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C4B6-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>1</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>1</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>1</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXI</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>QSFP+ Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C4B6-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>0.72</height>
+          <width>0.53</width>
+          <length>2.85</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.1</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>1.72</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>23</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C56A-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>2</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>2</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>2</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXG</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>QSFP+ Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C56A-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>0.72</height>
+          <width>0.53</width>
+          <length>2.85</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.1</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>2.44</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>24</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C5E2-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>3</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>3</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>3</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXE</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>QSFP+ Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C5E2-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>0.72</height>
+          <width>0.53</width>
+          <length>2.85</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.1</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>3.16</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>25</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C696-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>4</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>4</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>4</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXC</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>QSFP+ Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C696-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>0.72</height>
+          <width>0.53</width>
+          <length>2.85</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.1</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>3.88</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>26</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C70E-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>5</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>5</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>5</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXL</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>QSFP+ Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C70E-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>0.72</height>
+          <width>0.53</width>
+          <length>2.85</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.73</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>1</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>27</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C7CC-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>6</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>6</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>6</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXJ</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>QSFP+ Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C7CC-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>0.72</height>
+          <width>0.53</width>
+          <length>2.85</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.73</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>1.72</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>28</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C844-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>7</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>7</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>7</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXH</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>QSFP+ Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C844-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>0.72</height>
+          <width>0.53</width>
+          <length>2.85</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.73</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>2.44</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>29</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C8F8-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>8</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>8</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>8</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXF</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>QSFP+ Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C8F8-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>0.72</height>
+          <width>0.53</width>
+          <length>2.85</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.73</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>3.16</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>30</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990C970-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>9</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>9</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>9</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXD</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>QSFP+ Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990C970-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>0.72</height>
+          <width>0.53</width>
+          <length>2.85</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.73</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>3.88</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>31</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990CA42-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>10</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>10</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>10</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXB</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>CFP2 Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990CA42-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>1.63</height>
+          <width>0.49</width>
+          <length>4.23</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.5</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>6</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+ 
+<holder xmlns="urn:onf:params:xml:ns:yang:core-model">
+  <local-id>32</local-id>
+  <connector>
+    <!-- # entries: 0.. -->
+  </connector>
+  <occupying-fru/>
+  <spatial-properties-of-type>3990CABA-918F-11E8-B296-AFB700EFEAAC</spatial-properties-of-type>
+  <holder-monitor>
+    <!-- # entries: 0.. -->
+  </holder-monitor>
+  <holder-location>
+    <address-name/>
+    <address-element>
+      <uuid/>
+      <address-element-name/>
+      <local-id>
+        <class-of-instance/>
+        <local-id>
+          <value-name/>
+          <value/>
+          <name-and-value-authority/>
+        </local-id>
+      </local-id>
+      <name>
+        <class-of-instance/>
+        <name>
+          <value-name>Side</value-name>
+          <value>Front</value>
+          <name-and-value-authority/>
+        </name>
+      </name>
+      <arbitrary-element/>
+    </address-element>
+  </holder-location>
+  <position>11</position>
+  <holder-structure/>
+  <environmental-rating/>
+  <supported-equipment-type>
+    <!-- # entries: 1.. -->
+  </supported-equipment-type>
+  <expected-holder/>
+  <actual-holder/>
+  <name>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Shelf Face Plate</value-name>
+    <value>11</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>CLI</value-name>
+    <value>11</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Barcode Slot Position</value-name>
+    <value>YXXA</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Orientation</value-name>
+    <value>Vertical</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Description</value-name>
+    <value>CFP2 Pluggable</value>
+    <name-and-value-authority/>
+  </name>
+  <name>
+    <value-name>Traffic Bearing</value-name>
+    <value>Y</value>
+    <name-and-value-authority/>
+  </name>
+  <label>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </label>
+  <extension>
+    <value-name/>
+    <value/>
+    <name-and-value-authority/>
+  </extension>
+  <operational-state>operational-state-disabled</operational-state>
+  <administrative-control>administrative-control-quiescent</administrative-control>
+  <administrative-state>administrative-state-locked</administrative-state>
+  <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+</holder>
+  <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
+          <uuid>3990CABA-918F-11E8-B296-AFB700EFEAAC</uuid>
+          <height>1.63</height>
+          <width>0.49</width>
+          <length>4.23</length>
+    <local-id>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </local-id>
+    <name>
+            <value-name>weight</value-name>
+            <value></value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Base</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Left</value-name>
+            <value>0.5</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Front</value-name>
+            <value>0</value>
+      <name-and-value-authority/>
+    </name>
+    <name>
+            <value-name>Dim to Top</value-name>
+            <value>7.75</value>
+      <name-and-value-authority/>
+    </name>
+    <label>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </label>
+    <extension>
+      <value-name/>
+      <value/>
+      <name-and-value-authority/>
+    </extension>
+    <operational-state>operational-state-disabled</operational-state>
+    <administrative-control>administrative-control-quiescent</administrative-control>
+    <administrative-state>administrative-state-locked</administrative-state>
+    <lifecycle-state>lifecycle-state-installed</lifecycle-state>
+  </spatial-properties-of-type>
+    
+  <equipment-structure xmlns="urn:onf:params:xml:ns:yang:core-model">
+    <category>zz:equipment-category-shelf</category>
+  </equipment-structure>
   <equipment-structure xmlns="urn:onf:params:xml:ns:yang:core-model">
     <category>equipment-category-rack</category>
   </equipment-structure>

@@ -1,0 +1,2 @@
+Template Name,Front/Rear,Rack Template Name,Part Number,Material ID,SAP Code,CLEI-7,Manufacturer,Category/Equip Type/Model Name,Status,Shelf Name,Shelf AID Formula,Shelf AID Rule,Description,Weight,Height,Width,Depth,Dim to Base,Dim to Left,Dim to Front,Dim to Top,Subclass
+CI / 6500 T-24 SHELF ASSEMBLY (NTK703PA),,,NTK703PA,11328746,10784734,WOMPZ00,CIENA,Ciena 6500 T-24 SHELF,PRE_INVENTORY,[1-254],SHELF-<SHELF>,SHELF-[0-254],Ciena 6500 T-24 Shelf (NTK703PA),167.4,63,19.6,18,0,0,0,0,LGHTWV
