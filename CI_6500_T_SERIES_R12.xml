@@ -3934,9 +3934,7 @@
   <position>31</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -4077,9 +4075,7 @@
   <position>32</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -4220,9 +4216,7 @@
   <position>33</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -4363,9 +4357,7 @@
   <position>34</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>

@@ -1066,7 +1066,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA650CA-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5460-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -1094,7 +1094,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>61</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -1109,7 +1109,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>61 PIM A1</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1119,7 +1119,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>P01</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1153,7 +1153,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA650CA-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5460-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>4.41</height>
           <width>9.57</width>
           <length>16.42</length>
@@ -1209,7 +1209,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65228-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C55D2-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -1237,7 +1237,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>62</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -1252,7 +1252,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>62 PIM B1</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1262,7 +1262,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>P02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1296,7 +1296,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65228-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C55D2-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>4.41</height>
           <width>9.57</width>
           <length>16.42</length>
@@ -1352,7 +1352,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA652C8-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C567C-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -1380,7 +1380,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>51</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -1395,7 +1395,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>51 FAN</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1405,7 +1405,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>O01</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1439,7 +1439,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA652C8-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C567C-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>2.4</height>
           <width>9.69</width>
           <length>16.34</length>
@@ -1495,7 +1495,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65430-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C57F8-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -1523,7 +1523,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>52</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -1538,7 +1538,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>52 FAN</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1548,7 +1548,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>O02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1582,7 +1582,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65430-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C57F8-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>2.4</height>
           <width>9.69</width>
           <length>16.34</length>
@@ -1638,7 +1638,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA654A8-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C587A-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -1666,7 +1666,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>40</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -1681,7 +1681,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>40 AP</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1691,7 +1691,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>N01</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1725,7 +1725,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA654A8-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C587A-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>1.54</height>
           <width>19.57</width>
           <length>16.3</length>
@@ -1781,7 +1781,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65552-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C592E-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -1809,7 +1809,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>1</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -1824,7 +1824,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>1</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1834,7 +1834,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M01</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1868,7 +1868,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65552-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C592E-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -1924,7 +1924,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA655C0-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C59A6-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -1952,7 +1952,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>2</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -1967,7 +1967,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>2</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -1977,7 +1977,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2011,7 +2011,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA655C0-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C59A6-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -2067,7 +2067,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65656-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5A50-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -2095,7 +2095,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>3</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -2110,7 +2110,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>3</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2120,7 +2120,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M03</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2154,7 +2154,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65656-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5A50-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -2210,7 +2210,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA656BA-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5ABE-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -2238,7 +2238,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>4</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -2253,7 +2253,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>4</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2263,7 +2263,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M04</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2297,7 +2297,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA656BA-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5ABE-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -2353,7 +2353,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65750-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5B68-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -2381,7 +2381,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>5</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -2396,7 +2396,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>5</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2406,7 +2406,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M05</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2440,7 +2440,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65750-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5B68-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -2496,7 +2496,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA657BE-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5BD6-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -2524,7 +2524,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>6</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -2539,7 +2539,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>6</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2549,7 +2549,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M06</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2583,7 +2583,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA657BE-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5BD6-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -2639,7 +2639,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA6585E-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5C8A-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -2667,7 +2667,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>41</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -2682,17 +2682,17 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>41 CTM</value>
     <name-and-value-authority/>
   </name>
   <name>
     <value-name>CLI</value-name>
-    <value></value>
+    <value>CTM-A</value>
     <name-and-value-authority/>
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M07</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2726,7 +2726,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA6585E-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5C8A-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>0.91</width>
           <length>15</length>
@@ -2782,7 +2782,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA658CC-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5D02-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -2810,7 +2810,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>42</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -2825,17 +2825,17 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>42 CTM</value>
     <name-and-value-authority/>
   </name>
   <name>
     <value-name>CLI</value-name>
-    <value></value>
+    <value>CTM-B</value>
     <name-and-value-authority/>
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M08</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2869,7 +2869,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA658CC-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5D02-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>0.91</width>
           <length>15</length>
@@ -2925,7 +2925,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65962-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5DAC-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -2953,7 +2953,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>7</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -2968,7 +2968,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>7</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -2978,7 +2978,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M09</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3012,7 +3012,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65962-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5DAC-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -3068,7 +3068,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA659C6-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5E1A-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -3096,7 +3096,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>8</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -3111,7 +3111,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>8</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3121,7 +3121,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M10</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3155,7 +3155,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA659C6-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5E1A-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -3211,7 +3211,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65AAC-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5EC4-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -3239,7 +3239,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>9</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -3254,7 +3254,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>9</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3264,7 +3264,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M11</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3298,7 +3298,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65AAC-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5EC4-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -3354,7 +3354,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65B10-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5F32-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -3382,7 +3382,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>10</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -3397,7 +3397,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>10</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3407,7 +3407,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M12</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3441,7 +3441,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65B10-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5F32-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -3497,7 +3497,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65BA6-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C5FD2-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -3525,7 +3525,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>11</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -3540,7 +3540,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>11</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3550,7 +3550,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M13</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3584,7 +3584,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65BA6-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C5FD2-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -3640,7 +3640,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65C0A-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C604A-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -3668,7 +3668,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>12</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -3683,7 +3683,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>12</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3693,7 +3693,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>M14</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3727,7 +3727,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65C0A-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C604A-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -3783,7 +3783,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65CA0-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C60F4-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -3811,7 +3811,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>65</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -3826,7 +3826,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>Upper Air Filter</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3870,7 +3870,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65CA0-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C60F4-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>0.32</height>
           <width>19.25</width>
           <length>13.54</length>
@@ -3926,7 +3926,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65D0E-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6162-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -3954,7 +3954,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>53</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -3969,7 +3969,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>53 FAN</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -3979,7 +3979,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>D01</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4013,7 +4013,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65D0E-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6162-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>9.37</height>
           <width>4.8</width>
           <length>16.26</length>
@@ -4069,7 +4069,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65D68-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C61D0-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -4097,7 +4097,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>66</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -4112,7 +4112,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>SM Air Filter</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4156,7 +4156,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65D68-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C61D0-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>9.37</height>
           <width>0.32</width>
           <length>8.43</length>
@@ -4212,7 +4212,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65E08-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6284-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -4240,12 +4240,10 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>31</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -4255,7 +4253,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>31</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4265,7 +4263,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>L02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4299,7 +4297,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65E08-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6284-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>0.98</height>
           <width>11.34</width>
           <length>16.18</length>
@@ -4355,7 +4353,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65E6C-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C62F2-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -4383,12 +4381,10 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>32</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -4398,7 +4394,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>32</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4408,7 +4404,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>K02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4442,7 +4438,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65E6C-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C62F2-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>0.98</height>
           <width>11.34</width>
           <length>16.18</length>
@@ -4498,7 +4494,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65F02-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C639C-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -4526,12 +4522,10 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>33</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -4541,7 +4535,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>33</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4551,7 +4545,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>J02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4585,7 +4579,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65F02-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C639C-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>0.98</height>
           <width>11.34</width>
           <length>16.18</length>
@@ -4641,7 +4635,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA65F66-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C640A-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -4669,12 +4663,10 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>34</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -4684,7 +4676,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>34</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4694,7 +4686,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>I02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4728,7 +4720,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA65F66-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C640A-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>0.98</height>
           <width>11.34</width>
           <length>16.18</length>
@@ -4784,7 +4776,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA66006-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C64B4-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -4812,12 +4804,10 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>35</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -4827,7 +4817,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>35</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4837,7 +4827,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>H02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4871,7 +4861,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA66006-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C64B4-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>0.98</height>
           <width>11.34</width>
           <length>16.18</length>
@@ -4927,7 +4917,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA6606A-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6522-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -4955,12 +4945,10 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>36</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -4970,7 +4958,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>36</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -4980,7 +4968,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>G02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5014,7 +5002,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA6606A-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6522-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>0.98</height>
           <width>11.34</width>
           <length>16.18</length>
@@ -5070,7 +5058,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA6610A-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C65CC-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -5098,12 +5086,10 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>37</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -5113,7 +5099,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>37</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5123,7 +5109,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>F02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5157,7 +5143,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA6610A-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C65CC-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>0.98</height>
           <width>11.34</width>
           <length>16.18</length>
@@ -5213,7 +5199,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA6616E-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6644-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -5241,12 +5227,10 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>38</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -5256,7 +5240,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>38</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5266,7 +5250,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>E02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5300,7 +5284,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA6616E-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6644-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>0.98</height>
           <width>11.34</width>
           <length>16.18</length>
@@ -5356,7 +5340,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA66204-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C66E4-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -5384,12 +5368,10 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>39</position>
   <holder-structure/>
   <environmental-rating/>
-  <supported-equipment-type>
-    <!-- # entries: 1.. -->
-  </supported-equipment-type>
+  <supported-equipment-type>NTK715AA</supported-equipment-type>
   <expected-holder/>
   <actual-holder/>
   <name>
@@ -5399,7 +5381,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>39</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5409,7 +5391,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>D02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5443,7 +5425,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA66204-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C66E4-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>0.98</height>
           <width>11.34</width>
           <length>16.18</length>
@@ -5499,7 +5481,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA66268-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C675C-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -5527,7 +5509,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>67</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -5542,7 +5524,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>Lower Air Filter</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5586,7 +5568,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA66268-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C675C-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>0.32</height>
           <width>19.25</width>
           <length>13.69</length>
@@ -5642,7 +5624,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA662FE-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C67FC-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -5670,7 +5652,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>13</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -5685,7 +5667,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>13</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5695,7 +5677,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C01</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5729,7 +5711,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA662FE-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C67FC-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -5785,7 +5767,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA6636C-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6874-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -5813,7 +5795,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>14</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -5828,7 +5810,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>14</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5838,7 +5820,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5872,7 +5854,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA6636C-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6874-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -5928,7 +5910,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA6640C-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6928-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -5956,7 +5938,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>15</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -5971,7 +5953,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>15</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -5981,7 +5963,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C03</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6015,7 +5997,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA6640C-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6928-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -6071,7 +6053,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA66470-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6996-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -6099,7 +6081,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>16</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -6114,7 +6096,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>16</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6124,7 +6106,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C04</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6158,7 +6140,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA66470-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6996-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -6214,7 +6196,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA66506-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6A40-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -6242,7 +6224,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>17</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -6257,7 +6239,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>17</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6267,7 +6249,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C05</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6301,7 +6283,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA66506-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6A40-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -6357,7 +6339,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA66574-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6AAE-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -6385,7 +6367,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>18</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -6400,7 +6382,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>18</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6410,7 +6392,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C06</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6444,7 +6426,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA66574-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6AAE-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -6500,7 +6482,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA6660A-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6B58-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -6528,7 +6510,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>43</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -6543,17 +6525,17 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>43 CTMX</value>
     <name-and-value-authority/>
   </name>
   <name>
     <value-name>CLI</value-name>
-    <value></value>
+    <value>CTMX-A</value>
     <name-and-value-authority/>
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C07</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6587,7 +6569,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA6660A-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6B58-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>0.91</width>
           <length>15</length>
@@ -6643,7 +6625,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA6666E-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6BD0-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -6671,7 +6653,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>44</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -6686,17 +6668,17 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>44 CTMX</value>
     <name-and-value-authority/>
   </name>
   <name>
     <value-name>CLI</value-name>
-    <value></value>
+    <value>CTMX-B</value>
     <name-and-value-authority/>
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C08</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6730,7 +6712,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA6666E-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6BD0-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>0.91</width>
           <length>15</length>
@@ -6786,7 +6768,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA666D2-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6C7A-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -6814,7 +6796,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>19</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -6829,7 +6811,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>19</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6839,7 +6821,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C09</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6873,7 +6855,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA666D2-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6C7A-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -6929,7 +6911,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA66772-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6CE8-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -6957,7 +6939,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>20</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -6972,7 +6954,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>20</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -6982,7 +6964,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C10</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7016,7 +6998,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA66772-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6CE8-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -7072,7 +7054,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA667D6-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6D56-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -7100,7 +7082,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>21</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -7115,7 +7097,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>21</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7125,7 +7107,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C11</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7159,7 +7141,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA667D6-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6D56-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -7215,7 +7197,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA6686C-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6DF6-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -7243,7 +7225,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>22</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -7258,7 +7240,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>22</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7268,7 +7250,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C12</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7302,7 +7284,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA6686C-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6DF6-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -7358,7 +7340,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA668DA-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6E64-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -7386,7 +7368,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>23</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -7401,7 +7383,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>23</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7411,7 +7393,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C13</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7445,7 +7427,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA668DA-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6E64-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -7501,7 +7483,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA66970-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6F0E-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -7529,7 +7511,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>24</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -7544,7 +7526,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>24</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7554,7 +7536,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>C14</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7588,7 +7570,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA66970-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6F0E-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>13.82</height>
           <width>1.42</width>
           <length>15</length>
@@ -7644,7 +7626,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA669D4-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C6F7C-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -7672,7 +7654,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>54</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -7687,7 +7669,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>54 FAN</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7697,7 +7679,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>B01</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7731,7 +7713,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA669D4-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C6F7C-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>2.4</height>
           <width>9.69</width>
           <length>16.34</length>
@@ -7787,7 +7769,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA66A88-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C7026-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -7815,7 +7797,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>55</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -7830,7 +7812,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>55 FAN</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7840,7 +7822,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>B02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7874,7 +7856,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA66A88-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C7026-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>2.4</height>
           <width>9.69</width>
           <length>16.34</length>
@@ -7930,7 +7912,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA66AEC-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C709E-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -7958,7 +7940,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>63</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -7973,7 +7955,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>63 PIM A2</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -7983,7 +7965,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>A01</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -8017,7 +7999,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA66AEC-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C709E-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>4.41</height>
           <width>9.57</width>
           <length>16.42</length>
@@ -8073,7 +8055,7 @@
     <!-- # entries: 0.. -->
   </connector>
   <occupying-fru/>
-  <spatial-properties-of-type>FAA66B82-919A-11E8-9419-FF879EAFF437</spatial-properties-of-type>
+  <spatial-properties-of-type>626C7152-93EA-11E8-9060-CECCD86AAB51</spatial-properties-of-type>
   <holder-monitor>
     <!-- # entries: 0.. -->
   </holder-monitor>
@@ -8101,7 +8083,7 @@
       <arbitrary-element/>
     </address-element>
   </holder-location>
-  <position></position>
+  <position>64</position>
   <holder-structure/>
   <environmental-rating/>
   <supported-equipment-type>
@@ -8116,7 +8098,7 @@
   </name>
   <name>
     <value-name>Shelf Face Plate</value-name>
-    <value></value>
+    <value>64 PIM B2</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -8126,7 +8108,7 @@
   </name>
   <name>
     <value-name>Barcode Slot Position</value-name>
-    <value></value>
+    <value>A02</value>
     <name-and-value-authority/>
   </name>
   <name>
@@ -8160,7 +8142,7 @@
   <lifecycle-state>lifecycle-state-installed</lifecycle-state>
 </holder>
   <spatial-properties-of-type xmlns="urn:onf:params:xml:ns:yang:core-model">
-          <uuid>FAA66B82-919A-11E8-9419-FF879EAFF437</uuid>
+          <uuid>626C7152-93EA-11E8-9060-CECCD86AAB51</uuid>
           <height>4.41</height>
           <width>9.57</width>
           <length>16.42</length>
