@@ -1,0 +1,253 @@
+{
+  "link": [
+    {
+      "administrative-state": "UNLOCKED",
+      "available-capacity": {
+        "total-size": {
+          "unit": "GBPS",
+          "value": "190"
+        }
+      },
+      "cost-characteristic": [
+        {
+          "cost-name": "hop_count",
+          "cost-value": "1"
+        }
+      ],
+      "direction": "BIDIRECTIONAL",
+      "latency-characteristic": [
+        {
+          "fixed-latency-characteristic": "2",
+          "traffic-property-name": "FixedLatency"
+        }
+      ],
+      "layer-protocol-name": [
+        "ETH",
+        "ODU"
+      ],
+      "lifecycle-state": "INSTALLED",
+      "name": [
+        {
+          "value": "PE_01_ETH_POOL-PE_01_ODU2_POOL",
+          "value-name": "name"
+        }
+      ],
+      "node-edge-point": [
+        "/restconf/config/context/topology/topo-pe1/node/node-eth-pe-1/owned-node-edge-point/nep-pe1-eth-pool",
+        "/restconf/config/context/topology/topo-pe1/node/node-odu-pe-1/owned-node-edge-point/nep-pe1-odu2-pool"
+      ],
+      "operational-state": "ENABLED",
+      "resilience-type": {
+        "protection-type": "NO_PROTECTON",
+        "restoration-policy": "NA"
+      },
+      "total-potential-capacity": {
+        "total-size": {
+          "unit": "GBPS",
+          "value": "200"
+        }
+      },
+      "uuid": "link-pe1-eth-pool-pe1-odu2-pool"
+    }
+  ],
+  "name": [
+    {
+      "value": "PE_01_INTERNAL_TOPOLOGY",
+      "value-name": "name"
+    }
+  ],
+  "node": [
+    {
+      "administrative-state": "UNLOCKED",
+      "aggregated-node-edge-point": [
+        "/restconf/config/context/topology/topo-pe1/node/node-eth-pe-1/owned-node-edge-point/nep-pe1-eth-uni1",
+        "/restconf/config/context/topology/topo-pe1/node/node-eth-pe-1/owned-node-edge-point/nep-pe1-eth-uni2",
+        "/restconf/config/context/topology/topo-pe1/node/node-eth-pe-1/owned-node-edge-point/nep-pe1-eth-pool",
+        "/restconf/config/context/topology/topo-pe1/node/node-eth-pe-1/owned-node-edge-point/nep-pe1-odu2-clt1"
+      ],
+      "layer-protocol-name": [
+        "ETH"
+      ],
+      "lifecycle-state": "INSTALLED",
+      "name": [
+        {
+          "value": "PE_01_ETH_NODE",
+          "value-name": "name"
+        }
+      ],
+      "operational-state": "ENABLED",
+      "owned-node-edge-point": [
+        {
+          "administrative-state": "UNLOCKED",
+          "layer-protocol-name": "ETH",
+          "lifecycle-state": "INSTALLED",
+          "link-port-direction": "BIDIRECTIONAL",
+          "link-port-role": "SYMMETRIC",
+          "mapped-service-interface-point": [
+            "/restconf/config/context/service-interface-point/sip-pe1-uni1"
+          ],
+          "name": [
+            {
+              "value": "PE_01_ETH_UNI_01",
+              "value-name": "name"
+            }
+          ],
+          "operational-state": "ENABLED",
+          "termination-direction": "BIDIRECTIONAL",
+          "termination-state": "LP_CAN_NEVER_TERMINATE",
+          "uuid": "nep-pe1-eth-uni1"
+        },
+        {
+          "administrative-state": "UNLOCKED",
+          "layer-protocol-name": "ETH",
+          "lifecycle-state": "INSTALLED",
+          "link-port-direction": "BIDIRECTIONAL",
+          "link-port-role": "SYMMETRIC",
+          "mapped-service-interface-point": [
+            "/restconf/config/context/service-interface-point/sip-pe1-uni2"
+          ],
+          "name": [
+            {
+              "value": "PE_01_ETH_UNI_02",
+              "value-name": "name"
+            }
+          ],
+          "operational-state": "ENABLED",
+          "termination-direction": "BIDIRECTIONAL",
+          "termination-state": "LP_CAN_NEVER_TERMINATE",
+          "uuid": "nep-pe1-eth-uni2"
+        },
+        {
+          "administrative-state": "UNLOCKED",
+          "aggregated-node-edge-point": [
+            "/restconf/config/context/topology/topo-pe1/node/node-eth-pe-1/owned-node-edge-point/nep-pe1-odu2-clt1"
+          ],
+          "layer-protocol-name": "ETH",
+          "lifecycle-state": "INSTALLED",
+          "link-port-direction": "BIDIRECTIONAL",
+          "link-port-role": "SYMMETRIC",
+          "name": [
+            {
+              "value": "PE_01_ETH_NEP_POOL",
+              "value-name": "name"
+            }
+          ],
+          "operational-state": "ENABLED",
+          "termination-direction": "BIDIRECTIONAL",
+          "termination-state": "LP_CAN_NEVER_TERMINATE",
+          "uuid": "nep-pe1-eth-pool"
+        },
+        {
+          "administrative-state": "UNLOCKED",
+          "layer-protocol-name": "ETH",
+          "lifecycle-state": "INSTALLED",
+          "link-port-direction": "BIDIRECTIONAL",
+          "link-port-role": "SYMMETRIC",
+          "name": [
+            {
+              "value": "PE_01_ODU2_CLT_01",
+              "value-name": "name"
+            }
+          ],
+          "operational-state": "ENABLED",
+          "termination-direction": "BIDIRECTIONAL",
+          "termination-state": "LP_CAN_NEVER_TERMINATE",
+          "uuid": "nep-pe1-odu2-clt1"
+        }
+      ],
+      "uuid": "node-eth-pe-1"
+    },
+    {
+      "administrative-state": "UNLOCKED",
+      "aggregated-node-edge-point": [
+        "/restconf/config/context/topology/topo-pe1/node/node-odu-pe-1/owned-node-edge-point/nep-pe1-odu4-nni1",
+        "/restconf/config/context/topology/topo-pe1/node/node-odu-pe-1/owned-node-edge-point/nep-pe1-odu4-nni2",
+        "/restconf/config/context/topology/topo-pe1/node/node-odu-pe-1/owned-node-edge-point/nep-pe1-odu2-nni1",
+        "/restconf/config/context/topology/topo-pe1/node/node-odu-pe-1/owned-node-edge-point/nep-pe1-odu2-pool"
+      ],
+      "layer-protocol-name": [
+        "ODU"
+      ],
+      "lifecycle-state": "INSTALLED",
+      "name": [
+        {
+          "value": "PE_01_ODU_NODE",
+          "value-name": "name"
+        }
+      ],
+      "operational-state": "ENABLED",
+      "owned-node-edge-point": [
+        {
+          "administrative-state": "UNLOCKED",
+          "layer-protocol-name": "ODU",
+          "lifecycle-state": "INSTALLED",
+          "link-port-direction": "BIDIRECTIONAL",
+          "link-port-role": "SYMMETRIC",
+          "name": [
+            {
+              "value": "PE_01_ODU4_NNI_01",
+              "value-name": "name"
+            }
+          ],
+          "operational-state": "ENABLED",
+          "termination-direction": "BIDIRECTIONAL",
+          "termination-state": "LP_CAN_NEVER_TERMINATE",
+          "uuid": "nep-pe1-odu4-nni1"
+        },
+        {
+          "administrative-state": "UNLOCKED",
+          "layer-protocol-name": "ODU",
+          "lifecycle-state": "INSTALLED",
+          "link-port-direction": "BIDIRECTIONAL",
+          "link-port-role": "SYMMETRIC",
+          "name": [
+            {
+              "value": "PE_01_ODU4_NNI_02",
+              "value-name": "name"
+            }
+          ],
+          "operational-state": "ENABLED",
+          "termination-direction": "BIDIRECTIONAL",
+          "termination-state": "LP_CAN_NEVER_TERMINATE",
+          "uuid": "nep-pe1-odu4-nni2"
+        },
+        {
+          "administrative-state": "UNLOCKED",
+          "layer-protocol-name": "ODU",
+          "lifecycle-state": "INSTALLED",
+          "link-port-direction": "BIDIRECTIONAL",
+          "link-port-role": "SYMMETRIC",
+          "name": [
+            {
+              "value": "PE_01_ODU2_NNI_01",
+              "value-name": "name"
+            }
+          ],
+          "operational-state": "ENABLED",
+          "termination-direction": "BIDIRECTIONAL",
+          "termination-state": "LP_CAN_NEVER_TERMINATE",
+          "uuid": "nep-pe1-odu2-nni1"
+        },
+        {
+          "administrative-state": "UNLOCKED",
+          "layer-protocol-name": "ODU",
+          "lifecycle-state": "INSTALLED",
+          "link-port-direction": "BIDIRECTIONAL",
+          "link-port-role": "SYMMETRIC",
+          "name": [
+            {
+              "value": "PE_01_ODU2_TTP_POOL",
+              "value-name": "name"
+            }
+          ],
+          "operational-state": "ENABLED",
+          "termination-direction": "BIDIRECTIONAL",
+          "termination-state": "LP_CAN_NEVER_TERMINATE",
+          "uuid": "nep-pe1-odu2-pool"
+        }
+      ],
+      "uuid": "node-odu-pe-1"
+    }
+  ],
+  "uuid": "topo-pe1"
+}
