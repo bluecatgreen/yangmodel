@@ -1,0 +1,6 @@
+[
+  "/restconf/config/context/topology/topo-nwk",
+  "/restconf/config/context/topology/topo-pe1",
+  "/restconf/config/context/topology/topo-pe2",
+  "/restconf/config/context/topology/topo-pe3"
+]
