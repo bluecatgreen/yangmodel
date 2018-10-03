@@ -1,0 +1,18 @@
+ubuntu@ip-10-74-21-199:~/yangmodel$ yang2dsdl  -v Cisco_NCS_4009_ROADM.xml zz-augmented.model.yang core-model@2018-07-11.yang
+== Generating RELAX NG schema './zz-augmented.model_core-model-data.rng'
+Done.
+
+== Generating Schematron schema './zz-augmented.model_core-model-data.sch'
+Done.
+
+== Generating DSRL schema './zz-augmented.model_core-model-data.dsrl'
+Done.
+
+== Validating grammar and datatypes ...
+Cisco_NCS_4009_ROADM.xml validates
+
+== Adding default values... done.
+
+== Validating semantic constraints ...
+No errors found.
+

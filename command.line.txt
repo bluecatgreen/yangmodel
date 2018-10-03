@@ -3,3 +3,4 @@ pyang zz-improved.model.yang core-model.yang
 pyang -f tree  zz-improved.model.yang core-model.yang 
 pyang -f sample-xml-skeleton -o jk.xml  core-model@2018-07-06.yang
 yang2dsdl -v equipment.xml core-model@2018-07-11.yang
+yang2dsdl  -v Cisco_NCS_4009_ROADM.xml zz-augmented.model.yang core-model@2018-07-11.yang
