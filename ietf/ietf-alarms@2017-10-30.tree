@@ -1,0 +1,151 @@
+module: ietf-alarms
+  +--rw alarms
+     +--rw control
+     |  +--rw max-alarm-status-changes?   union
+     |  +--rw notify-status-changes?      boolean
+     |  +--rw alarm-shelving {alarm-shelving}?
+     |     +--rw shelf* [shelf-name]
+     |        +--rw shelf-name              string
+     |        +--rw resource?               resource
+     |        +--rw alarm-type-id?          alarm-type-id
+     |        +--rw alarm-type-qualifier?   alarm-type-qualifier
+     |        +--rw description?            string
+     +--ro alarm-inventory
+     |  +--ro alarm-type* [alarm-type-id alarm-type-qualifier]
+     |     +--ro alarm-type-id           alarm-type-id
+     |     +--ro alarm-type-qualifier    alarm-type-qualifier
+     |     +--ro resource*               string
+     |     +--ro has-clear               boolean
+     |     +--ro severity-levels*        severity
+     |     +--ro description             string
+     +--ro summary
+     |  +--ro alarm-summary* [severity]
+     |  |  +--ro severity                  severity
+     |  |  +--ro total?                    yang:gauge32
+     |  |  +--ro cleared?                  yang:gauge32
+     |  |  +--ro cleared-not-closed?       yang:gauge32 {operator-actions}?
+     |  |  +--ro cleared-closed?           yang:gauge32 {operator-actions}?
+     |  |  +--ro not-cleared-closed?       yang:gauge32 {operator-actions}?
+     |  |  +--ro not-cleared-not-closed?   yang:gauge32 {operator-actions}?
+     |  +--ro shelves-active?   empty {alarm-shelving}?
+     +--ro alarm-list
+     |  +--ro number-of-alarms?   yang:gauge32
+     |  +--ro last-changed?       yang:date-and-time
+     |  +--ro alarm* [resource alarm-type-id alarm-type-qualifier]
+     |     +--ro time-created             yang:date-and-time
+     |     +--ro resource                 resource
+     |     +--ro alarm-type-id            alarm-type-id
+     |     +--ro alarm-type-qualifier     alarm-type-qualifier
+     |     +--ro alt-resource*            resource
+     |     +--ro related-alarm* [resource alarm-type-id alarm-type-qualifier]
+     |     |  +--ro resource                -> /alarms/alarm-list/alarm/resource
+     |     |  +--ro alarm-type-id           -> /alarms/alarm-list/alarm[resource=current()/../resource]/alarm-type-id
+     |     |  +--ro alarm-type-qualifier    -> /alarms/alarm-list/alarm[resource=current()/../resource][alarm-type-id=current()/../alarm-type-id]/alarm-type-qualifier
+     |     +--ro impacted-resource*       resource
+     |     +--ro root-cause-resource*     resource
+     |     +--ro is-cleared               boolean
+     |     +--ro last-changed             yang:date-and-time
+     |     +--ro perceived-severity       severity
+     |     +--ro alarm-text               alarm-text
+     |     +--ro status-change* [time] {alarm-history}?
+     |     |  +--ro time                  yang:date-and-time
+     |     |  +--ro perceived-severity    severity-with-clear
+     |     |  +--ro alarm-text            alarm-text
+     |     +--ro operator-state-change* [time] {operator-actions}?
+     |     |  +--ro time        yang:date-and-time
+     |     |  +--ro operator    string
+     |     |  +--ro state       operator-state
+     |     |  +--ro text?       string
+     |     +---x set-operator-state {operator-actions}?
+     |        +---w input
+     |           +---w state    operator-state
+     |           +---w text?    string
+     +--ro shelved-alarms {alarm-shelving}?
+        +--ro number-of-shelved-alarms?   yang:gauge32
+        +--ro alarm-shelf-last-changed?   yang:date-and-time
+        +--ro shelved-alarm* [resource alarm-type-id alarm-type-qualifier]
+           +--ro resource                 resource
+           +--ro alarm-type-id            alarm-type-id
+           +--ro alarm-type-qualifier     alarm-type-qualifier
+           +--ro alt-resource*            resource
+           +--ro related-alarm* [resource alarm-type-id alarm-type-qualifier]
+           |  +--ro resource                -> /alarms/alarm-list/alarm/resource
+           |  +--ro alarm-type-id           -> /alarms/alarm-list/alarm[resource=current()/../resource]/alarm-type-id
+           |  +--ro alarm-type-qualifier    -> /alarms/alarm-list/alarm[resource=current()/../resource][alarm-type-id=current()/../alarm-type-id]/alarm-type-qualifier
+           +--ro impacted-resource*       resource
+           +--ro root-cause-resource*     resource
+           +--ro is-cleared               boolean
+           +--ro last-changed             yang:date-and-time
+           +--ro perceived-severity       severity
+           +--ro alarm-text               alarm-text
+           +--ro status-change* [time] {alarm-history}?
+           |  +--ro time                  yang:date-and-time
+           |  +--ro perceived-severity    severity-with-clear
+           |  +--ro alarm-text            alarm-text
+           +--ro operator-state-change* [time] {operator-actions}?
+              +--ro time        yang:date-and-time
+              +--ro operator    string
+              +--ro state       operator-state
+              +--ro text?       string
+
+  rpcs:
+    +---x compress-alarms {alarm-history}?
+    |  +---w input
+    |  |  +---w resource?               -> /alarms/alarm-list/alarm/resource
+    |  |  +---w alarm-type-id?          -> /alarms/alarm-list/alarm/alarm-type-id
+    |  |  +---w alarm-type-qualifier?   -> /alarms/alarm-list/alarm/alarm-type-qualifier
+    |  +--ro output
+    |     +--ro compressed-alarms?   uint32
+    +---x purge-alarms
+       +---w input
+       |  +---w alarm-status             enumeration
+       |  +---w older-than!
+       |  |  +---w (age-spec)?
+       |  |     +--:(seconds)
+       |  |     |  +---w seconds?   uint16
+       |  |     +--:(minutes)
+       |  |     |  +---w minutes?   uint16
+       |  |     +--:(hours)
+       |  |     |  +---w hours?     uint16
+       |  |     +--:(days)
+       |  |     |  +---w days?      uint16
+       |  |     +--:(weeks)
+       |  |        +---w weeks?     uint16
+       |  +---w severity!
+       |  |  +---w (sev-spec)?
+       |  |     +--:(below)
+       |  |     |  +---w below?   severity
+       |  |     +--:(is)
+       |  |     |  +---w is?      severity
+       |  |     +--:(above)
+       |  |        +---w above?   severity
+       |  +---w operator-state-filter! {operator-actions}?
+       |     +---w state?   operator-state
+       |     +---w user?    string
+       +--ro output
+          +--ro purged-alarms?   uint32
+
+  notifications:
+    +---n alarm-notification
+    |  +--ro resource                resource
+    |  +--ro alarm-type-id           alarm-type-id
+    |  +--ro alarm-type-qualifier?   alarm-type-qualifier
+    |  +--ro alt-resource*           resource
+    |  +--ro related-alarm* [resource alarm-type-id alarm-type-qualifier]
+    |  |  +--ro resource                -> /alarms/alarm-list/alarm/resource
+    |  |  +--ro alarm-type-id           -> /alarms/alarm-list/alarm[resource=current()/../resource]/alarm-type-id
+    |  |  +--ro alarm-type-qualifier    -> /alarms/alarm-list/alarm[resource=current()/../resource][alarm-type-id=current()/../alarm-type-id]/alarm-type-qualifier
+    |  +--ro impacted-resource*      resource
+    |  +--ro root-cause-resource*    resource
+    |  +--ro time                    yang:date-and-time
+    |  +--ro perceived-severity      severity-with-clear
+    |  +--ro alarm-text              alarm-text
+    +---n alarm-inventory-changed
+    +---n operator-action {operator-actions}?
+       +--ro resource?               -> /alarms/alarm-list/alarm/resource
+       +--ro alarm-type-id?          -> /alarms/alarm-list/alarm[resource=current()/../resource]/alarm-type-id
+       +--ro alarm-type-qualifier?   -> /alarms/alarm-list/alarm[resource=current()/../resource][alarm-type-id=current()/../alarm-type-id]/alarm-type-qualifier
+       +--ro time                    yang:date-and-time
+       +--ro operator                string
+       +--ro state                   operator-state
+       +--ro text?                   string
