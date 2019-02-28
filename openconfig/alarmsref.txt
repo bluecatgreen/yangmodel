@@ -1,0 +1,9 @@
+./network-instance/openconfig-network-instance-l3.yang
+./system/openconfig-alarms.yang
+./system/openconfig-alarm-types.yang
+./system/openconfig-system.yang
+./interfaces/openconfig-extensions.yang
+./platform/openconfig-platform.yang
+./platform/openconfig-platform-types.yang
+./optical-transport/openconfig-transport-line-protection.yang
+./openconfig-extensions.yang
