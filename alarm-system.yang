@@ -1,0 +1,93 @@
+module alarm-system {
+
+  yang-version "1";
+
+  // namespace
+  namespace "http://openconfig.net/yang/system";
+
+  prefix "al-sys";
+
+  // import some basic types
+  import openconfig-extensions { prefix oc-ext; }
+  import openconfig-alarms { prefix oc-alarms; }
+
+  // meta
+  organization "OpenConfig working group";
+
+  contact
+    "OpenConfig working group
+    netopenconfig@googlegroups.com";
+
+  description
+    "Model for managing system-wide services and functions on
+    network devices.
+
+    Portions of this code were derived from IETF RFC 7317.
+    Please reproduce this note if possible.
+
+    IETF code is subject to the following copyright and license:
+    Copyright (c) IETF Trust and the persons identified as authors of
+    the code.
+    All rights reserved.
+
+    Redistribution and use in source and binary forms, with or without
+    modification, is permitted pursuant to, and subject to the license
+    terms contained in, the Simplified BSD License set forth in
+    Section 4.c of the IETF Trust's Legal Provisions Relating
+    to IETF Documents (http://trustee.ietf.org/license-info).";
+
+  oc-ext:openconfig-version "0.6.1";
+
+  revision "2018-11-21" {
+    description
+      "Add OpenConfig module metadata extensions.";
+    reference "0.6.1";
+  }
+
+  revision "2018-07-17" {
+    description
+      "Add gRPC server data";
+    reference "0.6.0";
+  }
+
+  revision "2018-01-21" {
+    description
+      "Add cpu utilization data";
+    reference "0.5.0";
+  }
+
+  revision "2017-12-15" {
+    description
+      "Add alarms to the system model";
+    reference "0.4.0";
+  }
+
+  revision "2017-09-18" {
+    description
+      "Updated to use OpenConfig types modules";
+    reference "0.3.0";
+  }
+
+  revision "2017-07-06" {
+    description
+      "Move to oc-inet types, add IETF attribution, add RADIUS
+      counters, changed password leaf names to indicate hashed";
+    reference "0.2.0";
+  }
+
+  revision "2017-01-29" {
+    description
+      "Initial public release";
+    reference "0.1.0";
+  }
+
+  // OpenConfig specific extensions for module metadata.
+  oc-ext:regexp-posix;
+  oc-ext:catalog-organization "openconfig";
+  oc-ext:origin "openconfig";
+
+
+    container alarm-system {
+      uses oc-alarms:alarms-top;
+    }
+  }
