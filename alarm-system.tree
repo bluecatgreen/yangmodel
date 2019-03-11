@@ -1,0 +1,13 @@
+module: alarm-system
+  +--rw alarm-system
+     +--ro alarms
+        +--ro alarm* [id]
+           +--ro id        -> ../state/id
+           +--ro config
+           +--ro state
+              +--ro id?             string
+              +--ro resource?       string
+              +--ro text?           string
+              +--ro time-created?   oc-types:timeticks64
+              +--ro severity?       identityref
+              +--ro type-id?        union
