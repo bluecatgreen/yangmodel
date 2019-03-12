@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0"  xmlns:at="http://openconfig.net/yang/alarms/types" xmlns:vz="urn:onf:params:xml:ns:yang:vz-augmented.alarm.model.ut"> 
+  <alarm-system xmlns="http://openconfig.net/yang/system" xmlns:vzt="urn:onf:params:xml:ns:yang:vz-augmented.alarm.model.ut-types">
+    <alarms>
+      <alarm>
+	      <id>1212212</id>
+	      <config></config>
+        <state>
+		<id>1212212</id>
+		<resource>OTM4-3-5-1</resource>
+		<text>ODU Trace Identifier Mismatch</text>
+		<time-created>1010202</time-created>
+		<severity>at:CRITICAL</severity>
+		<type-id>at:EQPT</type-id>
+		<vz:alarm_ref_id>1456</vz:alarm_ref_id>
+		<vz:type>vzt:ALARM</vz:type>
+		<vz:location>vzt:FEND</vz:location>
+		<vz:direction>vzt:TRMT</vz:direction>
+        </state>
+      </alarm>
+    </alarms>
+  </alarm-system>
+</data>

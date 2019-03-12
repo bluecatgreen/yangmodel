@@ -1,0 +1,24 @@
+module: alarm-system
+  +--rw alarm-system
+     +--ro alarms
+        +--ro alarm* [id]
+           +--ro id        -> ../state/id
+           +--ro config
+           +--ro state
+              +--ro id?                              string
+              +--ro resource?                        string
+              +--ro text?                            string
+              +--ro time-created?                    oc-types:timeticks64
+              +--ro severity?                        identityref
+              +--ro type-id?                         union
+              +--ro vz:alarm_ref_id?                 string
+              +--ro vz:type?                         identityref
+              +--ro vz:class?                        string
+              +--ro vz:equipment?                    string
+              +--ro vz:AID?                          string
+              +--ro vz:condition_type?               string
+              +--ro vz:location?                     identityref
+              +--ro vz:direction?                    identityref
+              +--ro vz:HiSeverityNotificationCode?   string
+              +--ro vz:LoSeverityNotificationCode?   string
+              +--ro vz:ServiceEffect?                string
