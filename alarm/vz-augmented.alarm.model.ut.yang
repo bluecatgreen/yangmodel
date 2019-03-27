@@ -2,8 +2,8 @@ module vz-augmented.alarm.model.ut {
     namespace "urn:onf:params:xml:ns:yang:vz-augmented.alarm.model.ut";
     prefix vz;
 
-    import alarm-system {
-        prefix "als";
+    import openconfig-system {
+        prefix "oc-system";
     }
     import vz-augmented.alarm.model.ut-types {
         prefix "vz-al-types";
@@ -110,10 +110,18 @@ module vz-augmented.alarm.model.ut {
             reference
                 "Effect of Alarm on Service";
         }
+       leaf CardType {
+            type string;
+            default "not applicable";
+            description
+                "Type of Card";
+            reference
+                "Type of Card";
+        }
    }
   
 
-    augment "/als:alarm-system/als:alarms/als:alarm/als:state" { 
+    augment "/oc-system:system/oc-system:alarms/oc-system:alarm/oc-system:state" { 
         description
             "Addition of data nodes for needs of vz.";
         uses alarm_augment;
