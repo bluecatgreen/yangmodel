@@ -1,0 +1,28 @@
+{
+    "system": {
+        "alarms": {
+            "alarm": {
+                "123232": {
+                    "state": {
+                        "time-created": 723423232, 
+                        "direction": "RCV", 
+                        "resource": "ETTP-1-3-3", 
+                        "severity": "MINOR", 
+                        "text": "T-UAS-PCS", 
+                        "type-id": "EQPT", 
+                        "CardType": "PTS MRO I/F|| 2xSFP+/14xSFP", 
+                        "location": "NEND", 
+                        "AID": "ETTP", 
+                        "alarm_ref_id": "010000000000-0000-0000", 
+                        "type": "ALARM", 
+                        "ServiceEffect": "NON_SERVICE_AFFECTION"
+                    }, 
+                    "id": "123232"
+                }
+            }
+        }, 
+        "config": {
+            "hostname": "CN6508P-7169"
+        }
+    }
+}
