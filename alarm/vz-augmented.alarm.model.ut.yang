@@ -118,6 +118,14 @@ module vz-augmented.alarm.model.ut {
             reference
                 "Type of Card";
         }
+       leaf MACAddress {
+            type string;
+            default "not applicable";
+            description
+                "MAC Address of Device";
+            reference
+                "MAC Address of Device";
+        }
    }
   
 
