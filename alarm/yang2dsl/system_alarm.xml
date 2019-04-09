@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:at="http://openconfig.net/yang/alarms/types">
+  <system xmlns="http://openconfig.net/yang/system">
+    <state>
+	    <hostname>sbhomda25</hostname>
+    </state>
+    <alarms>
+      <alarm>
+          <id>1212212</id>
+        <config/>
+        <state>
+            <id>1212212</id>
+            <resource>OTM4-3-5-1</resource>
+            <text>ODU Trace Identifier Mismatch</text>
+            <time-created>1010202</time-created>
+            <severity>at:CRITICAL</severity>
+            <type-id>at:EQPT</type-id>
+        </state>
+      </alarm>
+    </alarms>
+  </system>
+</data>

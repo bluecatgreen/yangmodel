@@ -1,0 +1,65 @@
+module vz-augmented.alarm.model {
+    namespace "urn:onf:params:xml:ns:yang:vz-augmented.alarm.model";
+    prefix vz;
+
+    import openconfig-system {
+        prefix "oc-system";
+    }
+    organization "vz";
+    contact "WG Web: <mailto:xyz.jk.com>";
+    description "this is a sample";
+    revision 2018-07-02 {
+        description "Initial version";
+        reference "A data Model for vz";
+    }
+    grouping alarm_augment
+    {
+        leaf layer {
+            type string;
+            default "not applicable";
+            description
+                "Alarm Layer origin";
+            reference
+                "
+                 are assigned by IEMT
+                 see details on their website";
+        }
+       leaf device-profile {
+            type string;
+            default "not applicable";
+            description
+                "Network Element Name";
+            reference
+                "Universal Part numbers
+                 are assigned by IEMT
+                 see details on their website";
+        }
+       leaf tid {
+            type string;
+            default "not applicable";
+            description
+                "NE Name/TI";
+            reference
+                "Universal Part numbers
+                 see details on their website";
+        }
+       leaf object-name {
+            type string;
+            default "not applicable";
+            description
+                "Verizon Reporting Object Name";
+            reference
+                "Universal Part numbers
+                 see details on their website";
+        }
+
+   }
+  
+
+    augment "/oc-system:system/oc-system:alarms/oc-system:alarm/oc-system:state" { 
+        description
+            "Addition of data nodes for needs of vz.";
+        uses alarm_augment;
+    }
+
+}

@@ -1,0 +1,63 @@
+{
+"modelName": "openconfig-system",
+"pyangObj": "openconfig_system",
+"rootNode": "system",
+"alarms":{
+  "tag":"dummy",
+  "type":"grouping",
+  "grouping":
+{"alarm":{
+   "tag":"data",
+   "type":"list",
+   "key": "id",
+   "keys":{
+	   "id": {
+		   "tag": "id",
+		   "type": "string"
+	   },
+	   "type":{
+		   "tag": "type",
+		   "type": "string"
+	   },
+	   "attributes": {
+		   "tag": "attributes",
+		   "type": "grouping",
+		   "grouping":{
+			   "id":{
+				   "tag": "id",
+				   "type": "string"
+			   },
+			   "alarmId":{
+				   "tag": "alarm-id",
+				   "type": "string"
+			   },
+			   "nodeId":{
+				   "tag": "node-id",
+				   "type": "string"
+			   },
+			   "raAlarmId": {
+				   "tag": "ra-alarm-id",
+				   "type": "string"
+			   },
+			   "nodeType": {
+				   "tag": "node-type",
+				   "type": "string"
+			   },
+			   "state": {
+				   "tag": "state",
+				   "type": "string"
+			   },
+			   "resourceId": {
+				   "tag": "resource",
+				   "type": "string"
+			   },
+			   "nativeConditionType": {
+				   "tag": "native-condition-type",
+				   "type": "string"
+			   }
+		   }
+
+	   }
+   }
+}}}
+}
