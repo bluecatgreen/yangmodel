@@ -1,5 +1,5 @@
-module vz-augmented.alarm.model {
-    namespace "urn:onf:params:xml:ns:yang:vz-augmented.alarm.model";
+module vz-udm-alarm.model {
+    namespace "urn:onf:params:xml:ns:yang:vz-udm-alarm.model";
     prefix vz;
 
     import openconfig-system {

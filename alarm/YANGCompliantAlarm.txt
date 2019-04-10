@@ -1,28 +1,67 @@
+Original JSON
+{
+    "data": [
+        {
+            "attributes": {
+                "ip-address": "10.182.10.105", 
+                "id": "-4014091938995079370", 
+                "native-condition-type": "LOS_OTS", 
+                "manual-clearable": false, 
+                "state": "ACTIVE", 
+                "alarm-id": "-4014091938995079370", 
+                "ra-alarm-id": "0100001127-0008-0560", 
+                "mac-address": "40AB07220500", 
+                "node-type": "6500", 
+                "service-affection": "SERVICE_AFFECTING", 
+                "device-id": "f114lb1e-c6d4-3690-96ed-966af131822d", 
+                "number-of-occurances": 2, 
+                "first-raise-time": "2017-10-23T14:36:18:00Z", 
+                "additional-attrs": {
+                    "source": "6500:OPTMON-1-6-13", 
+                    "direction": "RCV", 
+                    "aidtype": "OPTMON", 
+                    "location": "NEND", 
+                    "mode": "NONE"
+                }, 
+                "additional-text": "Loss of Signal", 
+                "resource": "OPTMON-1-6-13", 
+                "acknowledge-state": "NOT_ACKNOWLEDGED", 
+                "condition-severity": "MAJOR", 
+                "last-raise-time": "2017-10-25T18:35:55:00Z", 
+                "device-name": "PC0722CRFE", 
+                "partition": [], 
+                "node-id": "f490c132-9a26-4b01-babf-99dea16fb099", 
+                "affecte-inventory-ids": []
+            }, 
+            "type": "FilteredAlarm", 
+            "id": "-4014091938995079370"
+        }
+    ]
+}
+Converted to this
 {
     "system": {
         "alarms": {
             "alarm": {
-                "123232": {
+                "-4014091938995079370": {
                     "state": {
-                        "time-created": 723423232, 
+                        "time-created": "2017-10-23T14:36:18:00Z", 
+                        "deviceName": "PC0722CRFE", 
                         "direction": "RCV", 
-                        "resource": "ETTP-1-3-3", 
-                        "severity": "MINOR", 
-                        "text": "T-UAS-PCS", 
-                        "type-id": "EQPT", 
-                        "CardType": "PTS MRO I/F|| 2xSFP+/14xSFP", 
+                        "resource": "OPTMON-1-6-13", 
+                        "severity": "MAJOR", 
+                        "MACAddress": "40AB07220500", 
+                        "text": "Loss of Signal", 
                         "location": "NEND", 
-                        "AID": "ETTP", 
-                        "alarm_ref_id": "010000000000-0000-0000", 
-                        "type": "ALARM", 
-                        "ServiceEffect": "NON_SERVICE_AFFECTION"
+                        "AID": "OPTMON", 
+                        "alarm_ref_id": "0100001127-0008-0560", 
+                        "IPAddress": "10.182.10.105", 
+                        "id": "-4014091938995079370", 
+                        "ServiceEffect": "SERVICE_AFFECTING"
                     }, 
-                    "id": "123232"
+                    "id": "-4014091938995079370"
                 }
             }
-        }, 
-        "config": {
-            "hostname": "CN6508P-7169"
         }
     }
 }

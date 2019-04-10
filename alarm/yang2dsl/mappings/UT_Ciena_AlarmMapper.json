@@ -43,8 +43,24 @@
                                 "tag": "resource",
                                 "type": "string"
                             },
+                            "severity": {
+                                "tag": "condition-severity",
+                                "type": "string"
+                            },
+                            "IPAddress": {
+                                "tag": "ip-address",
+                                "type": "string"
+                            },
+                            "deviceName": {
+                                "tag": "device-name",
+                                "type": "string"
+                            },
                             "MACAddress": {
                                 "tag": "mac-address",
+                                "type": "string"
+                            },
+                            "location": {
+                                "tag": "additional-attrs->location",
                                 "type": "string"
                             },
                             "alarm_ref_id": {
